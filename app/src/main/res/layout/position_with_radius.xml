@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:clickable="true"
+        android:tint="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_camera_alt_black_24dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="136dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="116dp"
+        android:clickable="true"
+        android:tint="#fff"
+        app:layout_constraintCircle="@id/fab_cam"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cloud_upload_black_24dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="68dp"
+        android:clickable="true"
+        android:tint="#fff"
+        app:layout_constraintCircle="@id/fab_cam"
+        app:layout_constraintCircleAngle="135"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cloud_off_black_24dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="196dp"
+        android:clickable="true"
+        android:tint="#fff"
+        app:layout_constraintCircle="@id/fab_cam"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cloud_download_black_24dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:tint="#fff"
+        app:srcCompat="@drawable/ic_cloud_download_black_24dp"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="511dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_cam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:tint="#fff"
+        app:layout_constraintCircle="@id/fab_test"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="120dp"
+        app:srcCompat="@drawable/ic_camera_alt_black_24dp"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="431dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_cam4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:tint="#fff"
+        app:layout_constraintCircle="@id/fab_test"
+        app:layout_constraintCircleAngle="315"
+        app:layout_constraintCircleRadius="120dp"
+        app:srcCompat="@drawable/ic_camera_alt_black_24dp"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="431dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_cam3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:tint="#fff"
+        app:layout_constraintCircle="@id/fab_test"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="120dp"
+        app:srcCompat="@drawable/ic_camera_alt_black_24dp"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="431dp"/>
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="244dp"
+        android:text="Luiz "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
+        app:layout_constraintStart_toEndOf="@+id/barrier2"/>
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="right"
+        app:constraint_referenced_ids="button27,textView11"
+        tools:layout_editor_absoluteX="384dp"/>
+
+</android.support.constraint.ConstraintLayout>
