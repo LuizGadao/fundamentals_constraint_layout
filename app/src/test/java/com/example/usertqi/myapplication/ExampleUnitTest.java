@@ -14,4 +14,15 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+
+    @Test
+    public void mytest() {
+        float value = 40f;
+        int oldAngle = 110;
+        int angle = (int) ((oldAngle + value) % 360);
+        assertEquals(160, angle);
+
+        value = 120;
+
+    }
 }
